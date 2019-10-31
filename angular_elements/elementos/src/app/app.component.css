@@ -1,0 +1,28 @@
+:host {
+  display: block;
+  border: solid 1px;
+  width: 250px;
+  height: 250px;
+}
+
+input {
+  width: 90%;
+  margin: 50px auto 0;
+  display: block;
+}
+
+#square {
+  display: block;
+  width: 100px;
+  height: 100px;
+  background: rgb(98, 8, 112);
+  background: linear-gradient(
+    0deg,
+    rgba(98, 8, 112, 1) 0%,
+    rgba(225, 0, 255, 1) 100%
+  );
+
+  position: relative;
+  top: 34px;
+  left: 72px;
+}
